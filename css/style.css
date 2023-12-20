@@ -1,0 +1,40 @@
+/*GLOBAL*/
+@font-face {
+  font-family: "poppins";
+  font-weight: 600px;
+  src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+  url('../fonts/poppins-regular-webfont.woff') format('woff');
+}
+
+
+body{
+  font-family: "poppins", sans-serif;
+  margin: 0;
+}   
+
+.cta{
+  background-color: orangered;
+  color: white;
+  transition: all 0.2s;
+}
+
+.cta:hover{
+  background-color: orangered;
+  transform: scale(1.05);
+}
+
+ul{
+  list-style-image: url(../assets/iconizer-icon-check-10.svg);
+}
+
+.border-orange{
+  border-bottom: 4px solid orangered;
+}
+
+.theme{
+  transition: all 0.2s;
+}
+
+.theme:hover{
+  transform: scale(1.05);
+}
