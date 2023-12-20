@@ -5,20 +5,16 @@
   <meta charset="UTF-8">
   <title>Bienvenue sur Copy Writing Freak !</title>
   <!--Lien pour la Favicon-->
-  <link rel="shortcut icon" href="assets/logo_copywritingfreak.png" type="image/x-icon">
+  <link rel="shortcut icon" href="../assets/logo_copywritingfreak.png" type="image/x-icon">
   <!--Links pour css et framework css-->
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
 
 </head>
 
 <body>
-  <header>
-    <a href="#">
-      <img src="assets/logo_copywritingfreak.png" alt="Logo de CopyWriting Freak" width="70px" height="70px"
-        class="img-thumbnail">
-    </a>
-  </header>
+
+    <?php include_once('components/header.php')?>
 
   <main>
     <!--Section formulaire-->
@@ -35,7 +31,7 @@
                 Inscrivez-vous et recevez votre vidéo de formation directement dans votre boite email !
               </p>
               <!--formulaire avec adresse mail pour demander sa formation-->
-              <form action="index.php" method="get">
+              <form action="remerciement.php" method="get">
                 <div>
                   <label for="prenom"></label>
                   <input class="form-control" type="text" name="prenom" id="prenom" placeholder="Votre prénom" required>
@@ -61,7 +57,7 @@
             </div>
             <!--Emplacement de l'image concernant la formation gratuite-->
             <div class="col-4 p-4">
-              <img src="assets/formation_video_offerte.png" alt="formation vidéo de 30min offerte" class="img-fluid">
+              <img src="../assets/formation_video_offerte.png" alt="formation vidéo de 30min offerte" class="img-fluid">
             </div>
           </div>
         </div>
@@ -136,7 +132,7 @@
           <div class="col bg-light text-black border-orange theme">
             <div class="container-fluid">
               <div class="container text-center">
-                <img src="assets/programme_fusee.png" alt="Image de fusée" class="p-4">
+                <img src="../assets/programme_fusee.png" alt="Image de fusée" class="p-4">
               </div>
               <div>
                 <p class="fs-7 fw-bold">Pourquoi le copywriting est une arme ultra puissante pour la réussite de votre
@@ -147,7 +143,7 @@
           <div class="col bg-light text-black border-orange theme">
             <div class="container-fluid">
               <div class="container text-center">
-                <img src="assets/programme_cerveau.png" alt="Image de cerveau" class="p-4">
+                <img src="../assets/programme_cerveau.png" alt="Image de cerveau" class="p-4">
               </div>
               <p class="fs-7 fw-bold">Les mécanismes de la psychologie client :
                 Les motivations de l'achat et les raisons du non-achat.</p>
@@ -156,7 +152,7 @@
           <div class="col bg-light text-black border-orange theme">
             <div class="container-fluid">
               <div class="container text-center">
-                <img src="assets/programme_billet.png" alt="image de billets qui tombent" class="p-4">
+                <img src="../assets/programme_billet.png" alt="image de billets qui tombent" class="p-4">
               </div>
               <p class="fs-7 fw-bold">La méthodologie
                 3-STEP pour vendre facilement sans devoir en faire des tonnes.
@@ -166,7 +162,7 @@
           <div class="col bg-light text-black border-orange theme">
             <div class="container-fluid">
               <div class="container text-center">
-                <img src="assets/programme_cadeau.png" alt="Image d'un cadeau" class="p-4">
+                <img src="../assets/programme_cadeau.png" alt="Image d'un cadeau" class="p-4">
               </div>
               <div>
                 <p class="fs-7 fw-bold">3 formules de vente infaillibles pour rédiger des textes persuasifs et faire
@@ -182,7 +178,6 @@
             <a href="#formation_offerte" class="btn cta m-4">Recevoir la formation gratuite</a>
           </div>
         </div>
-      </div>
       </div>
 
     </section>
@@ -229,7 +224,7 @@
                 Copywriting pour décupler leurs impacts et leurs ventes !</p>
             </div>
             <div class="col">
-              <img class="img-fluid p-5" src="assets/photo_presentation.jpg"
+              <img class="img-fluid p-5" src="../assets/photo_presentation.jpg"
                 alt="Photo de presentation de la dirigeante de CopyWriting Freak" width="600vw" height="600vh">
             </div>
           </div>
@@ -239,31 +234,9 @@
 
   </main>
 
-  <footer class="bg-black py-3 fs-7">
-    <ul class="nav justify-content-center border-bottom pb-2 mb-2">
-      <li class="nav-item">
-        <a href="https://www.etsitutelancais.fr/conditions-generales-vente" class="nav-link text-light"
-          target="_blank">Conditions Générales de
-          Vente
-        </a>
-      </li>
-      <li class="nav-item">
-        <a href="https://www.etsitutelancais.fr/politique-de-confidentialite" class="nav-link text-light"
-          target="_blank">Politique de
-          confidentialité
-        </a>
-      </li>
-      <li class="nav-item">
-        <a href="https://www.etsitutelancais.fr/mentions-legales" class="nav-link text-light" target="_blank">Mentions
-          légales</a>
-      </li>
-    </ul>
+    <?php include_once('components/footer.php')?>
 
-    <p class="text-center text-light">&copy;Copyright 2022 ~ Copywriting Freak&#8482;</p>
-
-  </footer>
-
-  <script src="javascript/bootstrap.min.js"></script>
+  <script src="../javascript/bootstrap.min.js"></script>
 
 </body>
 
