@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
-
+<?php echo bonjour ?>
 <body>
   <header>
     <a href="index.html">
