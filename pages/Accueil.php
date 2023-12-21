@@ -17,7 +17,7 @@
                 Inscrivez-vous et recevez votre vidéo de formation directement dans votre boite email !
               </p>
               <!--formulaire avec adresse mail pour demander sa formation-->
-              <form action="remerciement.php" method="get">
+              <form action="Remerciement.php" method="get">
                 <div>
                   <label for="prenom"></label>
                   <input class="form-control" type="text" name="prenom" id="prenom" placeholder="Votre prénom" required>
@@ -221,9 +221,3 @@
   </main>
 
     <?php include_once('components/footer.php')?>
-
-  <script src="../javascript/bootstrap.min.js"></script>
-
-</body>
-
-</html>

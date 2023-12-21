@@ -22,3 +22,7 @@
     <p class="text-center text-light">&copy;Copyright 2022 ~ Copywriting Freak&#8482;</p>
 
 </footer>
+<script src="../javascript/bootstrap.min.js"></script>
+
+</body>
+</html>
